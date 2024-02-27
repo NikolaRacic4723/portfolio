@@ -1,0 +1,135 @@
+@media screen and (max-width: 1350px) {
+  #projects #projectsprojects {
+    flex-wrap: wrap;
+  }
+  #projects #projectsprojects img {
+    width: 45%;
+  }
+  #projects #projectsprojects img:last-child {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #about #bigchonk div p {
+    font-size: 17.5px;
+  }
+  #projects #projectsprojects {
+    flex-wrap: wrap;
+  }
+  #projects #projectsprojects img {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  #projects #projectsprojects img:last-child {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #about {
+    height: 1000px;
+  }
+  #about #bigchonk {
+    flex-wrap: wrap;
+  }
+  #about #bigchonk div img {
+    height: 40vh;
+    padding-bottom: 20px;
+  }
+  #about #bigchonk div p {
+    font-size: 17.5px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  #skills #mojiskillovi {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #skills #mojiskillovi .progress-bar {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #skills #mojiskillovi {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #skills #mojiskillovi .progress-bar {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer {
+    height: 10vh;
+  }
+  footer .icon i {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  header #logo img {
+    width: 50px;
+  }
+  header nav ul li {
+    font-size: 15px;
+  }
+  #skills #mojiskillovi {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #skills #mojiskillovi .progress-bar {
+    margin: 5%;
+    width: 75px;
+    height: 75px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #about {
+    height: 1150px;
+  }
+  #about #bigchonk {
+    flex-wrap: wrap;
+  }
+  #about #bigchonk div img {
+    height: 40vh;
+    padding-bottom: 20px;
+  }
+  #about #bigchonk div p {
+    font-size: 17.5px;
+    text-align: center;
+  }
+  footer {
+    height: 10vh;
+  }
+  footer .icon i {
+    font-size: 30px;
+  }
+  footer #prava {
+    font-size: 10px;
+  }
+  header {
+    flex-wrap: wrap;
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 400px) and (max-width: 350px) {
+  header nav ul a {
+    padding: 10px;
+  }
+  footer {
+    height: 10vh;
+  }
+  footer .icon i {
+    font-size: 20px;
+  }
+  footer #prava {
+    font-weight: 400;
+    font-size: 10px;
+  }
+  #firstbackground h1 {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
